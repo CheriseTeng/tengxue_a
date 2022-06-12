@@ -1,0 +1,14 @@
+ sudo apt-get remove kazam //app卸载
+ sudo apt-get kazam        //卸载
+ dpkg --list               //查看app名称 
+
+kill -l                   //查看所有信号 64-2个
+gcc -g -c a.c             //gdb方式编译
+gdb a.out                 //启动gdb调试
+pstree                    //查看进程树
+ctrl+z                    //将前台进程切换到后台，处于停止状态
+ctrl+c                    //只能给前台进程发送信号
+jobs                      //查看当前进程
+bg%1 fg%1                 //1号工作号进程后台运作 将后台进程切换到前台
+kill -9/2 进程号          //杀死进程[进程号]  2号信号相当于ctrl+c
+top                       //显示系统中各个进程的资源占用状况，类似于Windows的任务管理器
